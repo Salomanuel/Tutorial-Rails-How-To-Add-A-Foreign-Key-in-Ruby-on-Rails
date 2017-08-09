@@ -9,6 +9,10 @@
   </head>
 
   <body>
+  	<%= link_to "All categories", expenses_path(category:nil) %>
+  	<% Category.all.each do |category| %>
+  		<%= link_to category.name, expenses_path(category: category.name) %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
