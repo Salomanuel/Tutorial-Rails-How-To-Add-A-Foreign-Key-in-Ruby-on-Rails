@@ -1,24 +1,6 @@
-# README
+http://www.mattmorgante.com/technology/foreignkey
+https://github.com/mattmorgante/foreign_key
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# tutorial How To Add A Foreign Key in Ruby on Rails
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This article will walk through how to create a simple application that has two databases that relate to each other using a foreign key. Unlike formal documentation, my hope here is that by demonstrating the actual uses in migrations, models, controllers, and views, it will be easier for others to implement this feature. 
